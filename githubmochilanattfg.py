@@ -435,7 +435,7 @@ def estudiom_valorabs(terna): #terna es las instancias
     plt.plot(parejas,diferencias_fitness)
     plt.xlabel('Parejas')
     plt.ylabel('Diferencia de fitness entre los individuos')
-    plt.title('Diferencia proporción entre los fitness de los individuos')
+    plt.title('Diferencia entre los fitness de los individuos')
     plt.show()
     r, p = stats.pearsonr(distancias, diferencias_fitness)
     print(f"Correlacion Pearson: r={r}, p-value={p}")
