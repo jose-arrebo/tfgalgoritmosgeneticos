@@ -513,7 +513,3 @@ def fitness1(sol, l): #l: una lista de conjuntos
             c2 = c2.union(l[i])
     c_aux = c1.difference(c2)
     return result + len(c_aux)
-
-estudio_valorabs(10,10)
-#print(instancias)
-#rendimiento_natsetcover(instancias)
